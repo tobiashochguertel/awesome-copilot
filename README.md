@@ -25,6 +25,24 @@ Discover our curated collections of prompts, instructions, and agents organized 
 | [Partners](collections/partners.md) | Custom agents that have been created by GitHub partners | 20 items | devops, security, database, cloud, infrastructure, observability, feature-flags, cicd, migration, performance |
 
 
+## 🔌 Plugin Marketplace
+
+**NEW!** Install customizations directly through the Claude Code Plugin Marketplace:
+
+```shell
+# Add the marketplace
+/plugin marketplace add github/awesome-copilot
+
+# Install all agents
+/plugin install awesome-agents-collection@awesome-copilot
+
+# Or install specific collections
+/plugin install awesome-skills-collection@awesome-copilot
+/plugin install awesome-prompts-collection@awesome-copilot
+```
+
+📖 **[Full Plugin Marketplace Documentation](.claude-plugin/README.md)**
+
 ## MCP Server
 
 To make it easy to add these customizations to your editor, we have created a [MCP Server](https://developer.microsoft.com/blog/announcing-awesome-copilot-mcp-server) that provides a prompt for searching and installing prompts, instructions, agents, and skills directly from this repository. You'll need to have Docker installed and running to run the server.
